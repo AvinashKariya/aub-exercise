@@ -1,0 +1,57 @@
+.main_body {
+  display: flex;
+  width: 95vw;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.card_mat {
+  margin: 20px;
+  height: 50vh;
+  width: 30vw;
+}
+
+.main_cardbody {
+  display: flex;
+  width: 95vw;
+  flex-wrap: wrap;
+}
+
+.btn_grp {
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+}
+
+.main_user_body {
+  display: flex;
+  background-color: antiquewhite;
+  width: 70vw;
+}
+
+.user_photo img {
+  height: 300px;
+}
+.user_detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.user_email {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.user_name {
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+.btn button {
+  padding: 20px;
+  background-color: blueviolet;
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+  color: white;
+}
